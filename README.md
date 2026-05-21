@@ -28,24 +28,26 @@ Le projet combine :
 # 📂 Structure du projet
 
 ```bash
-credit-scoring-system/
+Scoring_credits/
 │
 ├── app.py
 ├── requirements.txt
 ├── xgboost_credit_scoring.pkl
 ├── features.pkl
+├── scaler.pkl
 ├── README.md
 │
-├── data/
-│   └── simulated_credit_dataset.csv
+├── dataset/
+│   └── dataset_credi_senegal.csv
 │
 ├── notebooks/
-│   └── credit_scoring_analysis.ipynb
+│   └── risk-credits.ipynb
 │
 └── images/
-    ├── roc_curve.png
-    ├── shap_example.png
-    └── streamlit_app.png
+    ├── matrice confusion.png
+    ├── classification repport.png
+    ├── courbe apprentissage.png
+    └── courbe AUC.png
 ```
 
 
@@ -53,21 +55,13 @@ credit-scoring-system/
 ## 🛠️ Technologies utilisées
 
 -Python
-
 -Pandas
-
 -NumPy
-
 -Scikit-learn
-
 -XGBoost
-
 -SHAP
-
 -Streamlit
-
 -Matplotlib
-
 -Joblib
 
 
@@ -116,11 +110,11 @@ courbes d’apprentissage.
 
 Plusieurs modèles de classification ont été évalués :
 
-## Régression Logistique
+# Régression Logistique
 
-## Random Forest
+# Random Forest
 
-## XGBoost
+# XGBoost
 
 Le modèle XGBoost a été retenu grâce à ses meilleures performances globales.
 
