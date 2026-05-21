@@ -129,13 +129,13 @@ Le modèle XGBoost a été optimisé afin de :
 
 ## Techniques utilisées :
 
-★régularisation,
+- régularisation,
 
-★ajustement des hyperparamètres,
+- ajustement des hyperparamètres,
 
-★validation croisée K-Fold,
+- validation croisée K-Fold,
 
-★ajustement du seuil de décision.
+- ajustement du seuil de décision.
 
 
 ## 📈 Performances du modèle
@@ -171,13 +171,13 @@ Le projet intègre SHAP afin d’expliquer les décisions du modèle.
 
 SHAP permet de :
 
-comprendre pourquoi un client est considéré à risque,
+★ comprendre pourquoi un client est considéré à risque,
 
-identifier les variables les plus influentes,
+★ identifier les variables les plus influentes,
 
-améliorer la transparence du système.
+★ améliorer la transparence du système.
 
-Exemple d’explication SHAP
+
 
 ## 💻 Application Streamlit
 
@@ -185,15 +185,15 @@ Une application web interactive a été développée avec Streamlit.
 
 ## Fonctionnalités :
 
-saisie des informations client,
+- saisie des informations client,
 
-prédiction du risque de défaut,
+- prédiction du risque de défaut,
 
-génération d’un score de crédit,
+- génération d’un score de crédit,
 
-segmentation du risque,
+- segmentation du risque,
 
-explication des prédictions avec SHAP.
+- explication des prédictions avec SHAP.
 
 
 # Aperçu de l’application
