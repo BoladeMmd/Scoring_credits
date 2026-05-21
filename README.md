@@ -158,11 +158,19 @@ La courbe ROC permet d’évaluer la capacité du modèle à distinguer les clie
 
 <img width="401" height="333" alt="courbe AUC" src="https://github.com/user-attachments/assets/4a63d717-8ba5-46c1-a413-38d1509f9d01" />
 
+Le modèle obtient un score AUC d’environ **0.75**, indiquant une bonne capacité de discrimination.  
+Cela signifie que le modèle est capable de différencier correctement les clients à risque dans une majorité des cas.
+
 
 ## 📉 Courbe d'apprentissage 
 
 <img width="440" height="344" alt="courbe apprentissage" src="https://github.com/user-attachments/assets/40f7b0c8-4d97-4158-ad8c-dec86841dfa0" />
 
+
+La courbe d’apprentissage montre l’évolution des performances du modèle XGBoost sur les données d’entraînement et de validation.
+
+On observe que les scores d’entraînement et de validation restent relativement **proches**, ce qui indique une **réduction du surapprentissage** et une **bonne capacité de généralisation du modèle**.
+Le modèle présente des performances stables avec une validation croisée relativement cohérente entre les différents folds.
 
 
 ## 🧠 Interprétabilité avec SHAP
@@ -196,5 +204,42 @@ Une application web interactive a été développée avec Streamlit.
 - explication des prédictions avec SHAP.
 
 
-# Aperçu de l’application
+## Aperçu de l’application
+
+<img width="502" height="383" alt="image" src="https://github.com/user-attachments/assets/29859a1a-761a-475a-9f2f-f7f6ed585b0b" />
+
+<img width="500" height="386" alt="image" src="https://github.com/user-attachments/assets/80010182-d6b9-473d-b311-f80851212366" />
+
+<img width="518" height="178" alt="image" src="https://github.com/user-attachments/assets/880e4082-51fb-4f1b-bf9d-8a94d1f1667a" />
+
+<img width="469" height="346" alt="image" src="https://github.com/user-attachments/assets/72903d5a-59a6-44cf-b997-e8dedea3c2b0" />
+
+
+
+
+
+
+## Pour lancer l'application 
+1- **Pre requis (installer les depandances)** 
+
+```bash
+pip install -r requirements.txt
+```
+
+2- **lancer**
+
+```bash
+streamlit run app.py
+```
+
+## 📌 Disclaimer
+Le jeu de données utilisé dans ce projet est un dataset simulé généré à des fins éducatives et de démonstration.
+Il ne contient aucune donnée réelle de clients.
+
+## 👨‍💻 Auteur
+
+Projet réalisé par **Bolade Mamadou** dans le cadre d’un projet de Data Science appliqué au scoring de crédit et à l’analyse du risque financier.
+
+
+
 
