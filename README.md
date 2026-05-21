@@ -16,7 +16,7 @@ Le projet combine :
 
 ---
 
-# 🎯 Objectifs
+## 🎯 Objectifs
 
 ✅ Prédire le défaut de paiement d’un client  
 ✅ Générer un score de crédit  
@@ -25,7 +25,7 @@ Le projet combine :
 
 ---
 
-# 📂 Structure du projet
+## 📂 Structure du projet
 
 ```bash
 Scoring_credits/
@@ -69,18 +69,18 @@ Scoring_credits/
 
 Le modèle utilise plusieurs variables décrivant le profil du client du dataset  :
 
-âge
-revenu mensuel
-montant du crédit
-durée du crédit
-ancienneté emploi
-historique de crédit
-défaut antérieur
-niveau d’éducation
-garantie
-nombre de personnes à charge
-mobile money
-zone urbaine
+- âge,
+- revenu mensuel,
+- montant du crédit,
+- durée du crédit,
+- ancienneté emploi,
+- historique de crédit,
+- défaut antérieur,
+- niveau d’éducation,
+- garantie,
+- nombre de personnes à charge,
+- mobile money,
+- zone urbaine.
 etc.
 
 
@@ -96,23 +96,23 @@ Une analyse exploratoire complète a été réalisée afin de :
 
 Les visualisations utilisées incluent :
 
-distributions,
+- distributions,
 
-countplots,
+- countplots,
 
-heatmaps,
+- heatmaps,
 
-courbes ROC,
+- courbes ROC,
 
-courbes d’apprentissage.
+- courbes d’apprentissage.
 
 ## 🤖 Modèles testés
 
 Plusieurs modèles de classification ont été évalués :
 
-- # Régression Logistique
-- # Random Forest
-- # XGBoost
+- ## Régression Logistique,
+- ## Random Forest,
+- ## XGBoost.
 
 Le modèle XGBoost a été retenu grâce à ses meilleures performances globales.
 
