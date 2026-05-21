@@ -119,7 +119,7 @@ Plusieurs modèles de classification ont été évalués :
 Le modèle XGBoost a été retenu grâce à ses meilleures performances globales.
 
 ## ⚙️ Optimisation du modèle
-
+---
 Le modèle XGBoost a été optimisé afin de :
 
 - ## réduire le surapprentissage,
@@ -128,7 +128,7 @@ Le modèle XGBoost a été optimisé afin de :
   
 - ## optimiser le rappel des défauts de paiement.
 
-
+---
 ## Techniques utilisées :
 
 ★régularisation,
